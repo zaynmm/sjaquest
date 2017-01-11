@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One|Poiret+One|Poppins:500' rel='stylesheet' type='text/css'>
+  <title> RAPE: Raising Awareness of People's Experiences </title>
+  <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var correct = false;
+			document.getElementById("error").innerHTML = ""
+            $("#username").keyup(function(){
+                if (this.value == 'baymax') {
+                    document.getElementById("submit").href = "http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/k_homepage.html"; 
+					correct = true;
+					}
+                else if (this.value == 'ironman') {
+                    document.getElementById("submit").href = "http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/j_homepage.html"; 
+					correct = true;
+				}
+            });
+			$('#submit').click(function(){
+				if (correct = false) {	
+					document.getElementById("error").innerHTML = "Username or Password incorrect." 
+                }
+            });
+            $("#login").hover(function() {
+                $("#login-form").slideToggle();
+            });
+		});
+	</script>
+  <style>
+      #login-form  {
+            margin-left: -180px;
+            position: absolute;
+            margin-top: -85px;
+            display: none;
+            float: left;
+            clear: both;
+            background-color: #666;
+            padding: 0 2% 2% 2%;
+            border-radius: 5px;
+            width:178px;
+            height:140px;
+      }
+      #login-form .text {
+            width: 50%;
+            float: left;
+            margin-bottom: 2%;
+            margin-left: 2%;
+      }
+	  #login-form .submit {
+		width:50px;
+		height:15px;
+		font-size:14px;
+		padding:0px;
+		background-color: #666;
+		color:white;
+	  }
+	  
+	  
+	  
+      @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Oswald', sans-serif;
+        color: #fff;
+        background-color: #000;
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        background-image: "https://s31.postimg.org/n6xy52c6j/logo_pt2.png";
+      }
+      /* Text */
+      .clip {
+        font-size: 6em;
+        font-weight: bold;
+        line-height: 1;
+        position: relative;
+        display: inline-block;
+        margin: 20px;
+        margin-left: -500px;
+        margin-top: 30px;
+        padding: .5em ;
+        text-align: left;
+         /* Color fallback */
+        color: #33E3FF;
+        -webkit-background-clip: text;
+      }
+      .clip:before,
+      .clip:after {
+        position: absolute;
+        content: '';
+        background-color:#3D3E3E;
+      }
+      /* Text Background (black zone) */
+      .clip:after {
+        position: absolute;
+        z-index: -1;
+        top: 20px;
+        right: 0;
+        bottom: 20px;
+        left: -20px;
+        background-color:#3D3E3E;
+      }
+      /* Background */
+      .clip:before {
+        z-index: -2;
+        top: -20px;
+        right: -580px;
+        bottom: -10px;
+        left: -70px;
+        background-image: inherit;
+      }
+      .clip {
+        background-image: url("https://s-media-cache-ak0.pinimg.com/564x/30/ce/a7/30cea7b5cb866f9379f37fb8acd5ac99.jpg");
+	  }
+    body {
+      padding: 10px;
+    }
+    #wholenav {
+      margin-right: 50px;
+      width: 200px;
+      background-image: url("https://s-media-cache-ak0.pinimg.com/564x/30/ce/a7/30cea7b5cb866f9379f37fb8acd5ac99.jpg")
+      height: 82%;
+      position: fixed;
+      right:0;
+      top:8px;
+      z-index: 2;
+      font-family: Fjalla One;
+    }
+    #wholenav li {
+        z-index: -1;
+		margin-right: 20px;
+		list-style: none;
+		border-bottom: 2px solid #555;
+    }
+    #wholenav li:last-child {
+      border-bottom: none;
+    }
+    #wholenav li a:hover {
+      background-color: #555;
+      color: black;
+    }
+    #wholenav ul li a {
+      display: block;
+      color: white;
+      font-size: 19px;
+      padding: 23px;
+      text-decoration: none;
+      text-align: center;
+    }
+    #wholenav ul li:hover ul {
+      visibility:visible;
+      color: black;
+    }
+    #wholenav ul ul {
+      z-index: 1;
+      visibility: hidden;
+      margin-left: -100px;
+      float:left;
+        margin-top: -70px;
+      height: 0;
+      color: white;
+        background-color: #555;
+    }
+    #wholenav ul ul a {
+      color: white;
+        background-color: #555
+    }
+    .active {
+      background-color: #4CAF50;
+      color: white;
+    }
+    #bottomnav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        width: 570px;
+    }
+    #bottomnav ul li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    #bottomnav li {
+      margin-left: 20px;
+      list-style: none;
+      border-right: 2px solid #555;
+        float: left;
+    }
+    #bottomnav li:last-child {
+      border-right: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="clip">
+	  <ul style = "margin-top:0px; margin-bottom:0px; margin-right:-5px; margin-left:-45px">
+		<li><span style="color:#3385ff">R</span>aising</li>
+		<li><span style="color:#3385ff">A</span>wareness</li>
+		<li style="margin-left:175px">of</li>
+		<li><span style="color:#3385ff">P</span>eople's</li>
+		<li><span style="color:#3385ff">E</span>xperiences</li>
+	  </ul>
+  </div>
+  <div id="wholenav">
+        <ul>
+             <li id="login"><a  href="#" margin-right="40px">Log In/<br>Sign Up</a>
+                <form id="login-form" action="" method="post">
+                    <p style="width:300px; margin-top:15px; margin-left:5px;"><input class="text" id="username" type="text" name="username" placeholder="username" /></p>
+                    <p style="width:300px; margin-left:5px"><input class="text" id="password" type="password" name="password" placeholder="password" /></p><br><br>
+                    <button> <a type="button" class="submit" id="submit"> Log In </button> </a>
+					<a class="signup" style="padding:3px; font-size:13px; width:140px; height:7px; margin-top:-14px; margin-left:15px; background-color:#666" href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/sign_up.html">Don't have an account yet? Click here to sign up.</a>
+					<p style="margin-top:25px; font-size:12px;" id="error"></p>
+				</form>
+					
+                </li>
+		<li><a>Quiz</a>
+			<ul>
+			  <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/quiz_facts.html">Facts</a></li>
+			  <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/quiz_scenarios.html">Scenarios</a></li>
+			</ul>
+		</li>
+        <li><a>Infographics/</br>Statistics</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/info_general.html">General</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/info_colleges.html">Colleges</a></li>
+            </ul>
+        </li>
+        <li><a>Stories</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/stories_all.html">All</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/stories_specificcollege.html">Specific </br> College</a></li>
+            </ul>
+        </li>
+        <li><a href="#news">News</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/news_global.html">Global</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/news_US.html">US</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/news_colleges.html">Colleges</a></li>
+            </ul>
+        </li>
+        <li><a>Forums</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/forums_all.html">All</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/forums_specificcollege.html">Specific <br/> College</a></li>
+            </ul>
+        </li>
+        <li><a>Support</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/petition.html">Petition</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/staysafe.html">What You<br/> Can Do</a></li>
+            </ul>
+        </li>
+        <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/aboutus.html">About Us</a></li>
+	</ul>
+  </div>
+  <div id="bottomnav">
+    <ul>
+        <li><a target="_blank" href="https://www.rainn.org/about-national-sexual-assault-telephone-hotline">Hotline: 800.656.HOPE (4673)</a></li>
+        <li><a target="_blank" href="https://hotline.rainn.org/online/terms-of-service.jsp">Chat Room: Click to chat online</a></li>
+    </ul>
+  </div>
+</body>
+</html>
