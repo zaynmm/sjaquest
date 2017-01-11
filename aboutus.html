@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Fjalla+One|Poiret+One|Poppins:500' rel='stylesheet' type='text/css'>
+	<title> RAPE: About Us </title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://arrow.scrolltotop.com/arrow26.js"></script>
+    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var correct = false;
+			document.getElementById("error").innerHTML = ""
+            $("#username").keyup(function(){
+                if (this.value == 'baymax') {
+                    document.getElementById("submit").href = "http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/k_homepage.html"; 
+					correct = true;
+					}
+                else if (this.value == 'ironman') {
+                    document.getElementById("submit").href = "http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/j_homepage.html"; 
+					correct = true;
+				}
+            });
+			$('#submit').click(function(){
+				if (correct = false) {	
+					document.getElementById("error").innerHTML = "Username or Password incorrect." 
+                }
+            });
+            $("#login").hover(function() {
+                $("#login-form").slideToggle();
+            });
+		});
+	</script>
+	
+	<style>
+		#login-form  {
+            margin-left: -180px;
+            position: absolute;
+            margin-top: -85px;
+            display: none;
+            float: left;
+            clear: both;
+            background-color: #666;
+            padding: 0 2% 2% 2%;
+            border-radius: 5px;
+            width:178px;
+            height:140px;
+      }
+      #login-form .text {
+            width: 50%;
+            float: left;
+            margin-bottom: 2%;
+            margin-left: 2%;
+      }
+	  #login-form .submit {
+		width:50px;
+		height:15px;
+		font-size:14px;
+		padding:0px;
+		color:black;
+	  }
+        .topper {
+			max-width: 765px;
+            margin-left: 180px;
+			background-image: url("https://s31.postimg.org/o1kru9rbv/038.jpg");
+            background-size: 950px 900px;
+            background-repeat: no-repeat;
+            background-position:-115px -150px;
+            color: white;
+            border:10px solid transparent;
+            padding: 0px;
+            border-image: url(https://s-media-cache-ak0.pinimg.com/564x/30/ce/a7/30cea7b5cb866f9379f37fb8acd5ac99.jpg) 30 round;
+        }
+        body{
+        	font-family: Fjalla One;
+ 			background-color: black;
+            padding: 10px;
+			margin-bottom:50px;
+        }
+        h1 {
+            font-size: 80px;
+            font-family:Tahoma, Geneva, sans-serif;
+            text-align: center;
+        }
+        h2 {
+            font-size:40px;
+            font-family:Tahoma, Geneva, sans-serif;
+            text-align: center;
+            color: white;
+        }
+        h3 {
+            font-size: 20px;
+            font-family:Tahoma, Geneva, sans-serif;
+            text-align: center;
+            color: white;
+	 }
+        p {
+            font-size: 15px;
+ 	      	text-align: center;
+			color: white;
+ 	 }
+		.mission {
+			padding: 50px;
+			border: 3px solid white;
+			padding-left: 75px;
+			padding-right: 75px;
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-top:77px;
+		}
+		.people {
+			padding: 50px;
+			padding-left: 75px;
+			padding-right: 75px;
+			border: 3px solid white;
+			margin-left: 100px;
+			margin-right: 100px;
+			margin-top:20px;
+		}
+ 	   #wholenav {
+                margin-right: -10px;
+                width: 200px;
+                background-color: black;
+                height: 560px;
+                position: absolute;
+				margin-top: -10px;
+                margin-right: 20px;
+                right:0;
+                top:0px;
+                z-index: 2;
+		   		font-family: Fjalla One;
+            }
+            #wholenav li {
+            	z-index: -1;
+                margin-right: 20px;
+                list-style: none;
+                border-bottom: 2px solid #555;
+            }
+            #wholenav li:last-child {
+                border-bottom: none;
+            }
+            #wholenav li a:hover {
+                background-color: black;
+                color: white;
+            }
+            #wholenav ul li a {
+                display: block;
+                color: white;
+                font-size: 20px;
+                padding: 23px;
+                text-decoration: none;
+                text-align: center;
+            }
+            #wholenav ul li:hover ul {
+                visibility:visible;
+                color: white;
+            }
+            #wholenav ul ul {
+                display:inline;
+                z-index: 1;
+                visibility: hidden;
+                margin-left: -150px;
+                float:left;
+            	margin-top: -70px;
+                height: 0;
+                color: white;
+            	background-color: black;
+            }
+            #wholenav ul ul a {
+                color: white;
+            	background-color: black;
+            }
+            .active {
+                background-color: black;
+                color: white;
+            }
+        #bottomnav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            position: fixed;
+            bottom: 0;
+            width: 500px;
+        }
+        #bottomnav ul li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        #bottomnav li {
+            margin-left: 20px;
+            list-style: none;
+            border-right: 2px solid #555;
+            float: left;
+            }
+        #bottomnav li:last-child {
+                border-right: none;
+            }
+    </style>
+ </head>
+  <body>
+	<a style="position:absolute; float:left; margin-left:0px; margin-top:-60px," href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/homepage.html"><img src="https://raw.githubusercontent.com/kellyruan/RAPE/master/logo.PNG" height="150px"/></a>
+	 <div class= "topper">
+        <br><br/><br><br/><br><br/><br><br/><br><br/><br><br/><br><br/><br/><br/>
+        <h1>About Us</h1>
+    </div>
+    <div class = "mission">
+        <h2>Our mission</h2>
+        <p>We are high school students taking part in the Girls Who Code Summer Immersion Program. Our goal for this page is to not only raise awareness of the silenced topic of sexual assaults on college campuses and otherwise, but also create a safe network in which survivors can share their experiences and participate in discussions relating to sexual assault, in addition to having access to resources of help and support. Our website is completely anonymous to increase safety by preserving the identity of every user. In the future, we hope to expand this website to include a system where every college has stories, forums, and people of suspicion specific to that college. </p>
+    </div>
+    <div class= "people">
+		<h2><u></u>Meet the creators</u></h2>
+  
+        <h3>Kelly Ruan</h3>
+        <p>I'm a rising junior attending high school in San Francisco. With a passion for computer science, I hope to make a difference in someone's life <br> someday through the power of coding. In my free time, I enjoy walks along the beach and hikes through parks.</p>
+   
+        <h3>Zayn Muchell</h3>
+        <p>I am finally an upcoming senior at San Leandro High School. I enjoy being in the Social Justice Academy at my school, shopping, and helping 
+           others in any way I can. Being a part of Girls Who Code has not only taught me so much about coding but also how I can make a big difference in the future.  </p>
+   
+        <h3>Jocelyn Chu</h3>
+        <p>I'm a rising senior and an aspiring dermatologist. Through the Girls Who Code program, I have found my love for coding as well. During my free <br> time, I love to dance, golf, and fence.</p>
+	 
+	 <h3>Dezja Sabree</h3>
+        <p>I am an upcoming junior at Pinole Valley High. I enjoy photography, parties, and adventures. Being in GirlsWhoCode has given me an even bigger hunger <br> to just go out and pursue my goals of making my own company.</p>
+       </div>
+    <p style="font-size:35px"> Questions/Comments? Contact us at rapexperiences@gmail.com </p> <a href="rapexperiences@gmail.com"></a>
+	
+	<div id="wholenav">
+    <ul>
+        <li id="login"><a  href="#" margin-right="40px">Log In/<br>Sign Up</a>
+                <form id="login-form" action="" method="post">
+                    <p style="width:300px; margin-top:15px; margin-left:5px;"><input class="text" id="username" type="text" name="username" placeholder="username" /></p>
+                    <p style="width:300px; margin-left:5px"><input class="text" id="password" type="password" name="password" placeholder="password" /></p><br><br>
+                    <button> <a type="button" class="submit" id="submit"> Log In </button> </a>
+					<a class="signup" style="padding:3px; font-size:13px; width:140px; height:7px; margin-top:-14px; margin-left:15px; background-color:#666" href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/sign_up.html">Don't have an account yet? Click here to sign up.</a>
+					<p style="margin-top:25px; font-size:12px;" id="error"></p>
+				</form>
+					
+                </li>
+		<li><a>Quiz</a>
+			<ul>
+				<li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/quiz_facts.html">Facts</a></li>
+				<li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/quiz_scenarios.html">Scenarios</a></li>
+			</ul>
+		</li>
+		<li><a>Infographics/</br>Statistics</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/info_general.html">General</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/info_colleges.html">Colleges</a></li>
+            </ul>
+        </li>
+        <li><a>Stories</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/stories_all.html">All</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/stories_specificcollege.html">Specific </br> College</a></li>
+            </ul>
+        </li>
+        <li><a href="#news">News</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/news_global.html">Global</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/news_US.html">US</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/news_colleges.html">Colleges</a></li>
+            </ul>
+        </li>
+        <li><a>Forums</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/forums_all.html">All</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/forums_specificcollege.html">Specific </br> College</a></li>
+            </ul>
+        </li>
+        <li><a>Support</a>
+            <ul>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/petition.html">Petition</a></li>
+                <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/staysafe.html">What You <br> Can Do</a></li>
+            </ul>
+        </li>
+        <li><a href="http://htmlpreview.github.io/?https://github.com/kellyruan/RAPE/master/aboutus.html">About Us</a></li>
+    </ul>
+</div>
+<div id="bottomnav">
+    <ul>
+        <li><a target="_blank" href="https://www.rainn.org/about-national-sexual-assault-telephone-hotline">Hotline: 800.656.HOPE (4673)</a></li>
+        <li><a target="_blank" href="https://hotline.rainn.org/online/terms-of-service.jsp">Chat Room: Click to chat online</a></li>
+    </ul>
+</div>
+ </div>
+  </body>
+  </html>
